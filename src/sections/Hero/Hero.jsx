@@ -53,7 +53,7 @@ function Hero() {
           </a>
         </span>
         <p>
-          Passionate Developer and QA engineer. A jack of all trades, and future
+          Passionate Developer and QA engineer. A jack of all trades, and aspiring
           master of all!
         </p>
         <a href={CV} download>
