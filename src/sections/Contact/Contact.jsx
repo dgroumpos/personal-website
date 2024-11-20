@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id='contact' className={styles.container}>
       <h1 className='sectionTitle'>Contact</h1>
-      <form action={process.env.REACT_APP_FORMSPREE_URL} method='post'>
+      <form action={import.meta.env.VITE_FORMSPREE_URL} method='post'>
         <div className='formGroup'>
           <label htmlFor='name' hidden>
             Name
