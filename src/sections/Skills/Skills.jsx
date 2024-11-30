@@ -1,28 +1,34 @@
-import styles from './SkillsStyles.module.css';
-import checkMarkIcon from '../../assets/checkmark-dark.svg';
-import SkillList from '../../common/SkillList';
+import styles from "./SkillsStyles.module.css";
+import checkMarkIcon from "../../assets/checkmark-dark.svg";
+import SkillList from "../../common/SkillList";
 
 const Skills = () => {
   return (
-    <section id='skills' className={styles.container}>
-      <h1 className='sectionTitle'>Skills</h1>
+    <section id="skills" className={styles.container}>
+      <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill='HTML' />
-        <SkillList src={checkMarkIcon} skill='CSS' />
-        <SkillList src={checkMarkIcon} skill='Javascript' />
-        <SkillList src={checkMarkIcon} skill='Typescript' />
-        <SkillList src={checkMarkIcon} skill='React' />
+        <SkillList src={checkMarkIcon} skill="HTML" />
+        <SkillList src={checkMarkIcon} skill="CSS" />
+        <SkillList src={checkMarkIcon} skill="Javascript" />
+        <SkillList src={checkMarkIcon} skill="Typescript" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill='Swift' />
-        <SkillList src={checkMarkIcon} skill='SwiftUI' />
-        <SkillList src={checkMarkIcon} skill='UIKit' />
+        <SkillList src={checkMarkIcon} skill="React,js" />
+        <SkillList src={checkMarkIcon} skill="Next.js" />
+        <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill='Godot' />
-        <SkillList src={checkMarkIcon} skill='Unity' />
+        <SkillList src={checkMarkIcon} skill="C#" />
+        <SkillList src={checkMarkIcon} skill="ASP.NET Core" />
+        <SkillList src={checkMarkIcon} skill="Microsoft SQL Server" />
+        <SkillList src={checkMarkIcon} skill="Microservices" />
+        <SkillList src={checkMarkIcon} skill="RabbitMQ" />
+      </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Godot" />
       </div>
     </section>
   );
