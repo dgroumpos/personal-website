@@ -1,8 +1,6 @@
-import styles from './ContactStyles.module.css';
-
 const Contact = () => {
   return (
-    <section id='contact' className={styles.container}>
+    <section id='contact' className=''>
       <h1 className='sectionTitle'>Contact</h1>
       <form action={import.meta.env.VITE_FORMSPREE_URL} method='post'>
         <div className='formGroup'>

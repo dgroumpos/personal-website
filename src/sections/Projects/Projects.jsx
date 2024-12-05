@@ -1,12 +1,11 @@
-import styles from './ProjectStyles.module.css';
 import ProjectCard from '../../common/ProjectCard';
 import projects from '../../common/data/projects';
 
 function Projects() {
   return (
-    <section id='projects' className={styles.container}>
+    <section id='projects' className=''>
       <h1 className='sectionTitle'>Projects</h1>
-      <div className={styles.projectsContainer}>
+      <div className=''>
         {projects.map((project) => {
           let { title, thumbnail, url, description } = project;
           return (

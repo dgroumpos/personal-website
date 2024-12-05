@@ -1,8 +1,6 @@
-import styles from './FooterStyles.module.css';
-
 function Footer() {
   return (
-    <section id='footer' className={styles.container}>
+    <section id='footer' className=''>
       <p>
         &copy; 2024 Dimitris Groumpos. <br />
         All rights reserved
