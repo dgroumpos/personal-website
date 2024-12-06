@@ -8,14 +8,17 @@ import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/cv.pdf';
-import { useTheme } from '../../common/ThemeContext';
+// import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
-  const { theme, toggleTheme } = useTheme();
-  const themeIcon = theme === 'light' ? sun : moon;
-  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
-  const githubIcon = theme === 'light' ? githubLight : githubDark;
-  const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  // const { theme, toggleTheme } = useTheme();
+  // const themeIcon = theme === 'light' ? sun : moon;
+  // const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
+  // const githubIcon = theme === 'light' ? githubLight : githubDark;
+  // const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  const twitterIcon = twitterDark;
+  const githubIcon = githubDark;
+  const linkedinIcon = linkedinDark;
   return (
     <section id='hero' className=''>
       <div className=''>
@@ -26,9 +29,9 @@ function Hero() {
         />
         <img
           className=''
-          src={themeIcon}
+          // src={themeIcon}
           alt='Color mode icon'
-          onClick={toggleTheme}
+          // onClick={toggleTheme}
         />
       </div>
       <div className=''>
