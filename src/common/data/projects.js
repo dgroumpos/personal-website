@@ -1,13 +1,13 @@
-import shoppersList from '../../assets/shoppers-list.png';
+import grocerie from '../../assets/grocerie.png';
 import weatherSage from '../../assets/weathersage.png';
 import betSeer from '../../assets/betseer.png';
 import friendlyPaws from '../../assets/friendlypaws.png';
 
 const projects = [
   {
-    title: 'Shoppers list',
-    thumbnail: shoppersList,
-    url: 'https://github.com/dgroumpos/Shoppers-List',
+    title: 'Grocerie',
+    thumbnail: grocerie,
+    url: 'https://github.com/dgroumpos/Grocerie-api',
     description: 'Coming soon!',
   },
   {
